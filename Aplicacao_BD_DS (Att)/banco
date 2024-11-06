@@ -1,0 +1,41 @@
+CREATE DATABASE dados;
+
+CREATE TABLE Filmes (
+    codigo VARCHAR(15) PRIMARY KEY,
+    titulo VARCHAR(35),
+    genero VARCHAR(8),
+    produtora VARCHAR(15),
+    datacompra DATE
+);
+
+INSERT INTO Filmes (codigo, titulo, genero, produtora, datacompra) VALUES
+('F001', 'O Poderoso Chefão', 'Drama', 'Paramount', '2020-05-10'),
+('F002', 'Clube da Luta', 'Ação', 'Fox', '2021-07-15'),
+('F003', 'Matrix', 'Ficção', 'Warner', '2022-09-18'),
+('F004', 'Vingadores: Ultimato', 'Ação', 'Marvel', '2019-04-28'),
+('F005', 'Interestelar', 'Ficção', 'Paramount', '2021-02-20'),
+('F006', 'Coringa', 'Drama', 'Warner', '2020-12-05'),
+('F007', 'A Origem', 'Ficção', 'Warner', '2022-01-17'),
+('F008', 'O Senhor dos Anéis', 'Fantasia', 'New Line', '2019-10-22'),
+('F009', 'Gladiador', 'Ação', 'Universal', '2018-08-11'),
+('F010', 'Titanic', 'Romance', 'Paramount', '2020-11-13'),
+('F011', 'O Lobo de Wall Street', 'Drama', 'Paramount', '2021-03-09'),
+('F012', 'Jurassic Park', 'Aventura', 'Universal', '2020-05-18'),
+('F013', 'Harry Potter', 'Fantasia', 'Warner', '2021-12-25'),
+('F014', 'Pulp Fiction', 'Crime', 'Miramax', '2019-06-07'),
+('F015', 'O Exterminador do Futuro', 'Ação', 'Orion', '2022-07-16'),
+('F016', 'Forrest Gump', 'Drama', 'Paramount', '2020-08-30'),
+('F017', 'De Volta para o Futuro', 'Ficção', 'Universal', '2019-12-14'),
+('F018', 'Pantera Negra', 'Ação', 'Marvel', '2021-05-08'),
+('F019', 'Toy Story', 'Animação', 'Pixar', '2018-09-15'),
+('F020', 'Procurando Nemo', 'Animação', 'Pixar', '2020-02-19'),
+('F021', 'O Rei Leão', 'Animação', 'Disney', '2019-11-25'),
+('F022', 'Star Wars', 'Ficção', 'Lucasfilm', '2021-03-27'),
+('F023', 'Homem-Aranha', 'Ação', 'Sony', '2022-05-21'),
+('F024', 'Os Incríveis', 'Animação', 'Pixar', '2020-06-13'),
+('F025', 'Homens de Preto', 'Comédia', 'Columbia', '2019-09-09'),
+('F026', 'O Silêncio dos Inocentes', 'Suspense', 'Orion', '2020-01-04'),
+('F027', 'A Bela e a Fera', 'Romance', 'Disney', '2021-08-10'),
+('F028', 'Frozen', 'Animação', 'Disney', '2022-02-12'),
+('F029', 'Mad Max: Estrada da Fúria', 'Ação', 'Warner', '2019-07-22'),
+('F030', 'Guardiões da Galáxia', 'Ação', 'Marvel', '2020-09-30');
